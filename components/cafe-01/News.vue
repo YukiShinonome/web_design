@@ -65,7 +65,7 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .news-title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 20px 0 10px 0;
   margin: 0 20px;
   border-bottom: 2px solid #8b4513;

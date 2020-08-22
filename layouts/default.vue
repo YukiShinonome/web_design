@@ -13,7 +13,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app absolute dense clipped-left flat>
+    <v-app-bar app dense clipped-left flat>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-btn text nuxt to="/">
         <v-toolbar-title v-text="title" />
