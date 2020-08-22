@@ -94,4 +94,8 @@ export default {
 .theme--light.v-app-bar.v-toolbar.v-sheet {
   background-color: #dff2fc;
 }
+
+.container {
+  padding: 10px;
+}
 </style>

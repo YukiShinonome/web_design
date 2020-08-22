@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <v-tabs grow background-color="transparent" color="#000" slider-color="#8b4513">
       <v-tab>home</v-tab>
       <v-tab>menu</v-tab>
@@ -16,6 +16,10 @@
 </script>
 
 <style lang="scss" scoped>
+.container {
+  background-color: #faebd7;
+}
+
 .v-tabs {
   margin-bottom: 10px;
 }
