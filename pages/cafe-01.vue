@@ -3,7 +3,7 @@
     <v-tabs
       grow
       background-color="transparent"
-      color="#000"
+      color="#8b4513"
       slider-color="#8b4513"
     >
       <v-tab>home</v-tab>
