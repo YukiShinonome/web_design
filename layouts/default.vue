@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer app clipped>
+    <v-navigation-drawer v-model="drawer" app clipped>
       <v-list>
         <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact>
           <v-list-item-action>
@@ -13,12 +13,12 @@
       </v-list>
     </v-navigation-drawer>
 
-    <!-- <v-app-bar app clipped-left flat>
+    <v-app-bar app absolute dense clipped-left flat>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-btn text nuxt to="/">
         <v-toolbar-title v-text="title" />
       </v-btn>
-    </v-app-bar>-->
+    </v-app-bar>
 
     <v-content>
       <v-container>
@@ -57,7 +57,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .v-btn {
   text-transform: none;
 
@@ -65,7 +65,13 @@ export default {
     background-color: transparent;
   }
 }
+
+.theme--light.v-application,
+.theme--light.v-navigation-drawer {
+  background-color: #f8f8f8;
+}
+
 .theme--light.v-app-bar.v-toolbar.v-sheet {
-  background-color: azure;
+  background-color: #dff2fc;
 }
 </style>
