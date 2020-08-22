@@ -47,6 +47,26 @@ export default {
         to: '/'
       },
       {
+        icon: 'mdi-coffee',
+        title: 'カフェ',
+        to: '/cafe-01'
+      },
+      {
+        icon: 'mdi-coffee',
+        title: 'カフェ',
+        to: '/cafe-02'
+      },
+      {
+        icon: 'mdi-coffee',
+        title: 'カフェ',
+        to: '/cafe-03'
+      },
+      {
+        icon: 'mdi-brush',
+        title: 'パステル',
+        to: '/pastel-01'
+      },
+      {
         icon: 'mdi-cog',
         title: '設定',
         to: '/settings'
