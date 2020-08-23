@@ -13,7 +13,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app absolute dense clipped-left flat>
+    <v-app-bar app dense clipped-left flat>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-btn text nuxt to="/">
         <v-toolbar-title v-text="title" />
@@ -93,5 +93,9 @@ export default {
 
 .theme--light.v-app-bar.v-toolbar.v-sheet {
   background-color: #dff2fc;
+}
+
+.container {
+  padding: 10px;
 }
 </style>
