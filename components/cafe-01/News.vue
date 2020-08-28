@@ -65,10 +65,11 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .news-title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 20px 0 10px 0;
   margin: 0 20px;
   border-bottom: 2px solid #8b4513;
+  font-family: 'Fredericka the Great', sans-serif;
 }
 
 .theme--light.v-data-table {

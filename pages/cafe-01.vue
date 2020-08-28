@@ -1,12 +1,17 @@
 <template>
   <div class="container">
-    <v-tabs grow background-color="transparent" color="#8b4513" slider-color="#8b4513">
+    <v-tabs
+      grow
+      background-color="transparent"
+      color="#8b4513"
+      slider-color="#8b4513"
+    >
       <v-tab>home</v-tab>
       <v-tab>menu</v-tab>
       <v-tab>access</v-tab>
     </v-tabs>
     <v-img
-      src="https://cdn.pixabay.com/photo/2016/02/03/17/29/coffee-1177533_960_720.jpg"
+      src="https://source.unsplash.com/mpSMThAU4OY"
       max-height="500px"
     ></v-img>
     <News></News>
@@ -37,6 +42,22 @@ export default Vue.extend({
 }
 
 .v-tab {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-family: 'Fredericka the Great', sans-serif;
+  /* font-weight: bold; */
+}
+
+.v-image {
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    line-height: 1;
+    content: 'Shinonome Cafe';
+    font-size: 7rem;
+    font-family: 'Fredericka the Great', sans-serif;
+    color: #fff;
+  }
 }
 </style>
