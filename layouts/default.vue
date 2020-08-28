@@ -20,11 +20,11 @@
       </v-btn>
     </v-app-bar>
 
-    <v-content>
+    <v-main>
       <v-container>
         <nuxt />
       </v-container>
-    </v-content>
+    </v-main>
 
     <!-- <v-footer app>
       <span>&copy; 2020</span>
