@@ -16,9 +16,7 @@
           </div>
         </v-col>
         <v-col sm="8" md="8">
-          <v-img
-            src="https://cdn.pixabay.com/photo/2017/08/07/07/06/coffeehouse-2600877_960_720.jpg"
-          ></v-img>
+          <v-img src="https://source.unsplash.com/dwQRixazu9I"></v-img>
         </v-col>
       </v-row>
     </v-container>
@@ -33,10 +31,11 @@ export default Vue.extend({})
 
 <style lang="scss" scoped>
 .info-title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 20px 0 10px 0;
   margin: 0 20px;
   border-bottom: 2px solid #8b4513;
+  font-family: 'Fredericka the Great', sans-serif;
 }
 
 .info-item {
